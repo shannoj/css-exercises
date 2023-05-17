@@ -7,21 +7,55 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  border-top-width: 10px;
+  padding-top: 5px;
+  border-bottom-width: 5px;
+  padding-bottom: 5px;
 }
 
 .title {
   background: #e3f4ff;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
 }
 
 .content {
   background: #e3f4ff;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 button {
-  background: white;
+  display: block;
   border: 1px solid #eee;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  margin-left: 125px;
+  margin-right: 125px;
+  border-top-width: 0px;
 }
