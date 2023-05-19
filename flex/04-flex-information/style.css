@@ -7,9 +7,57 @@ img {
   height: 100px;
 }
 
+.middle-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.first-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 52px;
+  margin-right: 26px;
+}
+
+.second-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.third-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.fourth-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 26px;
+  margin-right: 52px;
+}
+
+.text{
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
 }
 
 /* do not edit this footer */
